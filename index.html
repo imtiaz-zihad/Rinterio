@@ -27,41 +27,21 @@
     </style>
   </head>
   <body class="font-manrope">
-    <header>
+    <header class="bg-base-100 bg-gradient-to-b from-cyan-500 to-blue-500">
       <!-- Navbar -->
-      <section class="nav-bar">
+      <section class="nav-bar lg:w-11/12 mx-auto">
         <nav>
-          <div class="navbar bg-base-100">
+          <div class="navbar">
             <div class="navbar-start">
-              <div class="dropdown">
-                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    class="h-5 w-5"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                  >
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      d="M4 6h16M4 12h8m-8 6h16"
-                    />
-                  </svg>
-                </div>
-                <ul
-                  tabindex="0"
-                  class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
+              
+              <div class="flex items-center">
+                <div
+                  class="bg-[#ABEF5F] rounded-full -rotate-45 w-8 h-8 flex items-center justify-center"
                 >
-                  <li><a>Home</a></li>
-                  <li><a>Services</a></li>
-                  <li><a>Portfolio</a></li>
-                  <li><a>Blogs</a></li>
-                  <li><a>Contacts Us</a></li>
-                </ul>
+                  <i class="fa-solid fa-arrow-right"></i>
+                </div>
+                <a class="btn btn-ghost text-3xl font-bold">Rinterio</a>
               </div>
-              <a class="btn btn-ghost text-xl">Rinterio</a>
             </div>
             <div class="navbar-center hidden lg:flex">
               <ul class="menu menu-horizontal px-1">
@@ -72,12 +52,50 @@
                 <li><a>Contacts Us</a></li>
               </ul>
             </div>
-            <div class="navbar-end">
-              <a class="btn">Button</a>
+            <div class="navbar-end flex space-x-3">
+                <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                        <div
+                  class="bg-[#E9E9E9] rounded-full  w-8 h-8 flex items-center justify-center"
+                >
+                <i class="text-[#737373] fa-solid fa-bars"></i>
+                </div>
+                        
+                    </div>
+                    <ul
+                      tabindex="0"
+                      class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
+                    >
+                      <li><a>Home</a></li>
+                      <li><a>Services</a></li>
+                      <li><a>Portfolio</a></li>
+                      <li><a>Blogs</a></li>
+                      <li><a>Contacts Us</a></li>
+                    </ul>
+                  </div>
+              <div
+                class="bg-[#E9E9E9]  rounded-full hidden w-8 h-8 md:flex lg:flex items-center justify-center"
+              >
+              <i class="fa-solid fa-magnifying-glass"></i>
+              </div>
+              <div
+                class="bg-[#E9E9E9]  rounded-full w-8 hidden h-8 md:flex lg:flex items-center justify-center"
+              >
+              <i class="fa-solid fa-cart-shopping"></i>
+              </div>
+              <div class="lg:flex md:flex hidden bg-[#ABEF5F]  rounded-3xl font-bold  p-1.5 m-2 items-center space-x-2">
+                <a class="">Book Consult</a>
+                <div
+                  class="bg-[#E9E9E9] rounded-full -rotate-45 w-8 h-8 flex items-center justify-center"
+                >
+                  <i class="fa-solid fa-arrow-right"></i>
+                </div>
             </div>
           </div>
         </nav>
       </section>
+
+      <!--  -->
     </header>
     <main></main>
     <footer></footer>
